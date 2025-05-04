@@ -9,7 +9,6 @@ def before_scenario(context, scenario):
     context.page = context.browser.new_page()
     context.base_url = "https://tap-ht24-testverktyg.github.io/exam-template/"
 
-
 def after_scenario(context, scenario):
     if context.page:
         context.page.close()

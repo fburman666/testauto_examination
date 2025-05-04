@@ -4,3 +4,4 @@ Som en användare vill jag se "Mina böcker"-sidan vid klick på "Mina böcker",
 Som en användare vill jag kunna välja (och välja bort) favoriter ur listan, så att jag ser vad jag ska läsa som nästa bok
 Som en användare vill jag kunna se valda favoriter i listan "mina favoriter", så att jag har lättare kan se mina favoritböcker
 Som en användare vill jag kunna lägga till nya böcker, så att jag kan komplettera listan med fler intressanta böcker
+Som en användare vill jag inte kunna addera ny bok utan att jag angett både titel och författare, så att inga felaktiga böcker hamnar i listan
