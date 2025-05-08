@@ -121,7 +121,7 @@ def step_check_catalog_list(context):
     expect(context.page.get_by_test_id("star-Allt du velat veta om godståg, men inte vågat fråga")).to_have_count(1,timeout=200)
 
 
-
+#som en användare vill jag inte kunna addera ny bok utan att jag angett både titel och författare, så att inga felaktiga böcker hamnar i listan
 @given(u'Användaren är igen inloggad på "lägg till bok"-sidan')
 def step_given_user_at_start_page(context):
     context.page.goto(context.base_url)
