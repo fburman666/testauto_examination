@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright, expect
 from behave import given, when, then
 import re
-from time import sleep
+#from time import sleep
 
 #Som en användare vill jag se "katalog"-sidan vid inloggning och vid klick på "katqlog", så att jag ser alla böcker i listan
 @given(u'användaren är inloggad på startsidan')
@@ -12,16 +12,6 @@ def step_given_user_at_start_page(context):
 @then(u'"Katalog"-sidan visas')
 def step_check_catalog_page(context):
     expect(context.page.get_by_text("Hur man tappar bort sin TV-fjärr 10 gånger om dagen")).to_have_count(1, timeout=200)
-
-
-#@when(u'användaren klickar på "Katalog"')
-#def step_when_user_clicks_catalog(context):
-#    button = context.page.get_by_test_id("catalog")
-#    button.click()
-
-#@then(u'"Katalog"-sidan visas igen')
-#def step_check_catalog_page(context):
-#    expect(context.page.get_by_text("Hur man tappar bort sin TV-fjärr 10 gånger om dagen")).to_have_count(1, timeout=200)
 
 #Som en användare vill jag se "lägg till bok"-sidan vid klick på "Lägg till bok", så att jag har möjlighet att addera nya böcker
 @given(u'användaren är inloggad på startsidan igen')
