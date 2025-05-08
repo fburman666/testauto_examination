@@ -1,5 +1,8 @@
 Välkommen till mitt testprogram. 
-Testfallen täcker userstories definerade i filen STORIES.md och testar krav för funtionalitet på websidan: https://tap-ht24-testverktyg.github.io/exam-template/
+Testfallen täcker userstories definerade i filen STORIES.md och testar 
+Feature:"Lägga till böcker och hantera favoriter i läslistan" 
+och kraven för funtionalitet på websidan: 
+https://tap-ht24-testverktyg.github.io/exam-template/
 
 För att köra testprogrammet behöver du installera:
 pip

@@ -3,11 +3,10 @@ from behave import given, when, then
 import re
 #from time import sleep
 
-#Som en användare vill jag se "katalog"-sidan vid inloggning och vid klick på "katqlog", så att jag ser alla böcker i listan
+#1. Som en användare vill jag se "katalog"-sidan vid inloggning, så att jag ser alla böcker i listan
 @given(u'användaren är inloggad på startsidan')
 def step_given_user_at_start_page(context):
     context.page.goto(context.base_url)
-
 
 @then(u'"Katalog"-sidan visas')
 def step_check_catalog_page(context):
